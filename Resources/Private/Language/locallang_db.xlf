@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2013-01-24T11:52:24Z" product-name="nittygritty">
+		<header/>
+		<body>
+
+			<trans-unit id="tx_nittygritty_domain_model_element">
+				<source>Element</source>
+			</trans-unit>
+			<trans-unit id="tx_nittygritty_domain_model_element.element_type">
+				<source>Element Type</source>
+			</trans-unit>
+
+		</body>
+	</file>
+</xliff>

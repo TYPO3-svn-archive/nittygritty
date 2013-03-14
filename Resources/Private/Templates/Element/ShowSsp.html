@@ -1,0 +1,29 @@
+{namespace nittygritty=Tx_Nittygritty_ViewHelpers}
+
+<f:layout name="Default" />
+
+This Template is responsible for displaying a Social Share Privacy button bar
+
+<f:section name="main">
+	<f:if condition="{activeServiceCount} > 0">
+		<f:if condition="{settings.general.noCssInclude}">
+			<f:else>
+				<nittygritty:includeJsCssFile path="{settings.socialshareprivacy.css_path}" media="screen" compress="TRUE" excludeFromConcatenation="TRUE"/>			
+			</f:else>
+		</f:if>	
+		<f:if condition="{settings.general.noJsLibraryInclude}">
+			<f:else>
+				<f:if condition="{settings.general.jsInFooter}">
+					<f:then>
+						<nittygritty:includeJsCssFile path="{settings.socialshareprivacy.js_path}" inFooter="TRUE" compress="TRUE" excludeFromConcatenation="TRUE"/>			
+					</f:then>
+					<f:else>
+						<nittygritty:includeJsCssFile path="{settings.socialshareprivacy.js_path}" compress="TRUE" excludeFromConcatenation="TRUE"/>			
+					</f:else>
+				</f:if>		
+			</f:else>
+		</f:if>
+		<nittygritty:IncludeJsCssInlineBlock block="{jsCode}" type="js" inFooter="TRUE" name="ssp" compress="FALSE" forceOnTop="FALSE" />
+		<div id="socialshareprivacy-{contentObjectData.uid}"></div>		
+	</f:if>
+</f:section>

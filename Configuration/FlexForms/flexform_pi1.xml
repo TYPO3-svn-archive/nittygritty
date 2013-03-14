@@ -1,0 +1,214 @@
+<T3DataStructure>
+	<meta>
+		<langDisable>1</langDisable>
+	</meta>
+	<sheets>
+		<sDEF>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:flexforms_tab.settings</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el>
+					<switchableControllerActions>
+						<TCEforms>
+							<label>LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:flexforms_general.mode</label>
+							<onChange>reload</onChange>
+							<config>
+								<type>select</type>
+								<items>
+									<numIndex index="0">
+										<numIndex index="0">LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:flexforms_general.mode.socialshareprivacy</numIndex>
+										<numIndex index="1">Element->showSsp</numIndex>
+									</numIndex>
+									<numIndex index="1">
+										<numIndex index="0">LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:flexforms_general.mode.xyz</numIndex>
+										<numIndex index="1">Element->showXyz</numIndex>
+									</numIndex>
+								</items>
+								<default>Element->showSsp</default>
+							</config>
+						</TCEforms>
+					</switchableControllerActions>
+				</el>
+			</ROOT>
+		</sDEF>
+		<!--
+			################################
+			  SHEET Element Settings SSP
+			################################
+		-->
+		<s_ssponly>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:flexforms_tab.element</sheetTitle>
+					<displayCond>FIELD:sDEF.switchableControllerActions:=:Element->showSsp</displayCond>
+				</TCEforms>
+				<type>array</type>
+				<el>
+					<settings.socialshareprivacy.services.facebook.status>
+						<TCEforms>
+							<label>LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.socialshareprivacy.services.facebook.status</label>
+							<config>
+								<type>select</type>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:on</numIndex>
+										<numIndex index="1">on</numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:off</numIndex>
+										<numIndex index="1">off</numIndex>
+									</numIndex>
+								</items>
+								<default>on</default>
+								<maxitems>1</maxitems>
+							</config>
+						</TCEforms>					
+					</settings.socialshareprivacy.services.facebook.status>
+					<settings.socialshareprivacy.services.facebook.action>
+						<TCEforms>
+							<label>LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.socialshareprivacy.services.facebook.action</label>
+							<config>
+								<type>select</type>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.socialshareprivacy.services.facebook.action.recommend</numIndex>
+										<numIndex index="1">recommend</numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.socialshareprivacy.services.facebook.action.like</numIndex>
+										<numIndex index="1">like</numIndex>
+									</numIndex>
+								</items>
+								<default>recommend</default>
+								<maxitems>1</maxitems>
+							</config>
+						</TCEforms>					
+					</settings.socialshareprivacy.services.facebook.action>
+					<settings.socialshareprivacy.services.twitter.status>
+						<TCEforms>
+							<label>LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.socialshareprivacy.services.twitter.status</label>
+							<config>
+								<type>select</type>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:on</numIndex>
+										<numIndex index="1">on</numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:off</numIndex>
+										<numIndex index="1">off</numIndex>
+									</numIndex>
+								</items>
+								<default>on</default>
+								<maxitems>1</maxitems>
+							</config>
+						</TCEforms>					
+					</settings.socialshareprivacy.services.twitter.status>
+					<settings.socialshareprivacy.services.twitter.tweet_text>
+						<TCEforms>
+							<label>LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.socialshareprivacy.services.twitter.tweet_text</label>
+							<config>
+								<type>input</type>
+								<size>40</size>
+								<max>120</max>
+								<eval>trim</eval>
+							</config>
+						</TCEforms>						
+					</settings.socialshareprivacy.services.twitter.tweet_text>
+					<settings.socialshareprivacy.services.gplus.status>
+						<TCEforms>
+							<label>LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.socialshareprivacy.services.gplus.status</label>
+							<config>
+								<type>select</type>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:on</numIndex>
+										<numIndex index="1">on</numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:off</numIndex>
+										<numIndex index="1">off</numIndex>
+									</numIndex>
+								</items>
+								<default>on</default>
+								<maxitems>1</maxitems>
+							</config>
+						</TCEforms>					
+					</settings.socialshareprivacy.services.gplus.status>
+					<settings.socialshareprivacy.services.xing.status>
+						<TCEforms>
+							<label>LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.socialshareprivacy.services.xing.status</label>
+							<config>
+								<type>select</type>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:on</numIndex>
+										<numIndex index="1">on</numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:off</numIndex>
+										<numIndex index="1">off</numIndex>
+									</numIndex>
+								</items>
+								<default>on</default>
+								<maxitems>1</maxitems>
+							</config>
+						</TCEforms>					
+					</settings.socialshareprivacy.services.xing.status>
+					<settings.socialshareprivacy.uri>
+						<TCEforms>
+							<label>LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.socialshareprivacy.uri</label>
+							<config>
+								<type>input</type>
+								<size>40</size>
+								<max>100</max>
+								<eval>trim</eval>
+								<wizards type="array">
+									<_PADDING>2</_PADDING>
+									<link type="array">
+										<type>popup</type>
+										<title>Link</title>
+										<icon>link_popup.gif</icon>
+										<script>browse_links.php?mode=wizard</script>
+										<params type="array">
+											<blindLinkOptions>mail,spec,folder,file</blindLinkOptions>
+										</params>
+										<JSopenParams>height=300,width=500,status=0,menubar=0,scrollbars=1</JSopenParams>
+									</link>
+								</wizards>
+							</config>
+						</TCEforms>					
+					</settings.socialshareprivacy.uri>
+				</el>
+			</ROOT>
+		</s_ssponly>
+		<!--
+			################################
+			  SHEET Element Settings XYZ
+			################################
+		-->
+		<s_xyzonly>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:flexforms_tab.element</sheetTitle>
+					<displayCond>FIELD:sDEF.switchableControllerActions:=:Element->showXyz</displayCond>
+				</TCEforms>
+				<type>array</type>
+				<el>
+					<settings.xyz.enable>
+						<TCEforms>
+							<label>Enable XYZ</label>
+							<onChange>reload</onChange>
+							<config>
+								<type>check</type>
+								<default>0</default>
+							</config>
+						</TCEforms>
+					</settings.xyz.enable>				
+				</el>
+			</ROOT>
+		</s_xyzonly>
+	</sheets>
+</T3DataStructure>

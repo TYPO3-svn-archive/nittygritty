@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2012-08-21T10:29:21Z" product-name="nittygritty">
+		<header/>
+		<body>
+			<trans-unit id="common.or">
+				<source>or</source>
+				<target>oder</target>
+			</trans-unit>
+			<trans-unit id="common.and">
+				<source>and</source>
+				<target>und</target>
+			</trans-unit>
+			<trans-unit id="socialshareprivacy.txt_help">
+				<source>After enabling the fields by a click, information will be sent to %s. This information will possibly be stored and processed. Storage may happen outside of the EU. Click on the %s to read more.</source>
+				<target>Wenn Sie diese Felder durch einen Klick aktivieren, werden Informationen an %s übertragen und unter Umständen auch dort gespeichert. Die Speicherung kann dabei auch außerhalb der EU erfolgen. Näheres erfahren Sie durch einen Klick auf das %s.</target>
+			</trans-unit>
+			<trans-unit id="socialshareprivacy.settings_perma">
+				<source>Enable permanently and accept data transmission:</source>
+				<target>Dauerhaft aktivieren und Datenübertragung zustimmen:</target>
+			</trans-unit>
+			<trans-unit id="socialshareprivacy.services.text_info">
+				<source>2 Clicks for more privacy: Click to enable the button. Send your recommendation to %s with the next click. By activating the service, information will be sent to third parties - see %s</source>
+				<target>2 Klicks für mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie können Ihre Empfehlung an %s senden. Schon beim Aktivieren werden Daten an Dritte übertragen - siehe %s</target>
+			</trans-unit>
+			<trans-unit id="socialshareprivacy.services.txt_service_off">
+				<source>Not connected with %s</source>
+				<target>Nicht verbunden mit %s</target>
+			</trans-unit>
+			<trans-unit id="socialshareprivacy.services.txt_service_on">
+				<source>Connected with %s</source>
+				<target>Verbunden mit %s</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

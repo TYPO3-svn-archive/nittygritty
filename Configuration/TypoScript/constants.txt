@@ -1,0 +1,275 @@
+## Define custom categories
+# customsubcategory=Abasic=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.socialshareprivacy.basic.category
+# customsubcategory=Bsite=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.socialshareprivacy.site.category
+# customsubcategory=Cssp=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.socialshareprivacy.ssp.category
+# customsubcategory=Dsspservices=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.socialshareprivacy.sspservices.category
+# customsubcategory=EsemanticNewsGeneral=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.news.semantic.general.category
+# customsubcategory=FsemanticNewsMetaBase=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.news.semantic.metaBase.category
+# customsubcategory=GsemanticNewsMetaMeta=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.news.semantic.meta.meta.category
+# customsubcategory=semanticNewsMetaOg=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.news.semantic.meta.og.category
+# customsubcategory=semanticNewsMetaDc=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.news.semantic.meta.dc.category
+
+
+plugin.tx_nittygritty {
+	view {
+		# cat=plugin.tx_nittygritty/file/10; type=string; label=Path to template root (FE)
+		templateRootPath = EXT:nittygritty/Resources/Private/Templates/
+		# cat=plugin.tx_nittygritty/file/20; type=string; label=Path to template partials (FE)
+		partialRootPath = EXT:nittygritty/Resources/Private/Partials/
+		# cat=plugin.tx_nittygritty/file/30; type=string; label=Path to template layouts (FE)
+		layoutRootPath = EXT:nittygritty/Resources/Private/Layouts/
+	}
+	settings {
+		general {
+			# cat=plugin.tx_nittygritty/Abasic/10; type=boolean; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.general.jsInFooter
+			jsInFooter = 1
+			# cat=plugin.tx_nittygritty/Abasic/20; type=boolean; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.general.noJsLibraryInclude
+			noJsLibraryInclude = 0
+			# cat=plugin.tx_nittygritty/Abasic/30; type=boolean; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.general.noCssInclude
+			noCssInclude = 0
+		}
+		site {
+			# cat=plugin.tx_nittygritty/Bsite/10; type=string; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.site.siteName
+			siteName = 
+			authors {
+				usr1 {
+					# cat=plugin.tx_nittygritty/Bsite/20; type=small; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.site.authors.usr1.name
+					name = 
+					# cat=plugin.tx_nittygritty/Bsite/30; type=small; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.site.authors.usr1.nameShort
+					nameShort = 
+					# cat=plugin.tx_nittygritty/Bsite/40; type=string; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.site.authors.usr1.uri
+					uri = 					
+				}
+				usr2 {
+					# cat=plugin.tx_nittygritty/Bsite/50; type=small; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.site.authors.usr2.name
+					name = 
+					# cat=plugin.tx_nittygritty/Bsite/60; type=small; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.site.authors.usr2.nameShort
+					nameShort = 
+					# cat=plugin.tx_nittygritty/Bsite/70; type=string; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.site.authors.usr2.uri
+					uri = 				
+				}
+			}
+		}
+		news {
+			semantic {
+				general {
+					# cat=plugin.tx_nittygritty/EsemanticNewsGeneral/10; type=options[LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:option.replace=replace,LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:option.prepend=prepend,LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:option.append=append]; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:news.semantic.general.pageTitle.action
+					pageTitle.action = replace
+					# cat=plugin.tx_nittygritty/EsemanticNewsGeneral/20; type=boolean; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:news.semantic.general.pageTitle.useAlternate
+					pageTitle.useAlternate = 0
+					# cat=plugin.tx_nittygritty/EsemanticNewsGeneral/30; type=options[LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:option.replace=replace,LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:option.prepend=prepend,LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:option.append=append]; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:news.semantic.general.description.action
+					description.action = append
+					# cat=plugin.tx_nittygritty/EsemanticNewsGeneral/40; type=int+; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:news.semantic.general.description.crop
+					description.crop = 200
+					# cat=plugin.tx_nittygritty/EsemanticNewsGeneral/50; type=options[LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:option.replace=replace,LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:option.prepend=prepend,LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:option.append=append]; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:news.semantic.general.keywords.action
+					keywords.action = append
+					# cat=plugin.tx_nittygritty/EsemanticNewsGeneral/60; type=int+; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:news.semantic.general.keywords.limit
+					keywords.limit = 10
+					# cat=plugin.tx_nittygritty/EsemanticNewsGeneral/70; type=int+; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:news.semantic.general.author.max
+					author.max = 3
+					# cat=plugin.tx_nittygritty/EsemanticNewsGeneral/80; type=string; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:news.semantic.general.metaTitle
+					metaTitle = title+alternativeTitle
+				}
+				metaBase {
+					meta {
+						# cat=plugin.tx_nittygritty/FsemanticNewsMetaBase/10; type=string; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:news.semantic.metaBase.meta.build
+						build = description,date,news_keywords
+						# cat=plugin.tx_nittygritty/FsemanticNewsMetaBase/20; type=small; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:news.semantic.metaBase.meta.dateFormat
+						dateFormat = Y-m-d\TH:i:sO
+					}
+					og {
+						# cat=plugin.tx_nittygritty/FsemanticNewsMetaBase/40; type=string; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:news.semantic.metaBase.og.build
+						build = fb:app_id, og:type, og:url, og:site_name, og:image, og:title, og:description, article:section, article:published_time, article:modified_time, article:expiration_time, article:author, article:tag
+						# cat=plugin.tx_nittygritty/FsemanticNewsMetaBase/50; type=small; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:news.semantic.metaBase.og.dateFormat
+						dateFormat = Y-m-d\TH:i:sO
+					}
+					dc {
+						# cat=plugin.tx_nittygritty/FsemanticNewsMetaBase/60; type=string; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:news.semantic.metaBase.dc.build
+						build = DC.format,DC.type,DC.language,DC.creator,DC.publisher,DC.title,DC.description,DC.date,DC.identifier,DC.subject,DCTERMS.created,DCTERMS.modified,DCTERMS.rightsHolder,DCTERMS.alternative
+						# cat=plugin.tx_nittygritty/FsemanticNewsMetaBase/70; type=small; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:news.semantic.metaBase.dc.dateFormat
+						dateFormat = Y-m-d
+					}
+				}
+				meta {
+					meta {
+						# cat=plugin.tx_nittygritty/GsemanticNewsMetaMeta/10; type=small; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:news.semantic.meta.meta.description.action
+						description.action = getDescription
+						# cat=plugin.tx_nittygritty/GsemanticNewsMetaMeta/20; type=small; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:news.semantic.meta.meta.keywords.action
+						keywords.action = getKeywordsString
+						# cat=plugin.tx_nittygritty/GsemanticNewsMetaMeta/30; type=small; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:news.semantic.meta.meta.author.action
+						author.action = getAuthors
+						# cat=plugin.tx_nittygritty/GsemanticNewsMetaMeta/40; type=boolean; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:news.semantic.meta.meta.author.multiple
+						author.multiple = 1
+						# cat=plugin.tx_nittygritty/GsemanticNewsMetaMeta/50; type=small; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:news.semantic.meta.meta.date.action
+						date.action = getCreated
+						# cat=plugin.tx_nittygritty/GsemanticNewsMetaMeta/60; type=small; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:news.semantic.meta.meta.news_keywords.action
+						news_keywords.action = getKeywordsString
+
+					}
+					og {
+						fb {
+							# cat=plugin.tx_nittygritty/semanticNewsMetaOg/10; type=small; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:news.semantic.meta.og.fb.appId
+							app_id.value = 4613
+						}
+						og {
+							# cat=plugin.tx_nittygritty/semanticNewsMetaOg/12; type=small; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:news.semantic.meta.og.og.type
+							type.value = article
+							# cat=plugin.tx_nittygritty/semanticNewsMetaOg/15; type=small; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:news.semantic.meta.og.og.url.action
+							url.action = getUrl
+							# cat=plugin.tx_nittygritty/semanticNewsMetaOg/20; type=small; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:news.semantic.meta.og.og.site_name.action
+							site_name.action = getSiteName
+							# cat=plugin.tx_nittygritty/semanticNewsMetaOg/25; type=small; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:news.semantic.meta.og.og.image.action
+							image.action = getImageUrl
+							# cat=plugin.tx_nittygritty/semanticNewsMetaOg/30; type=small; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:news.semantic.meta.og.og.title.action
+							title.action = getMetaTitle
+							# cat=plugin.tx_nittygritty/semanticNewsMetaOg/35; type=small; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:news.semantic.meta.og.og.description.action
+							description.action = getDescription
+						}
+						article {
+							# cat=plugin.tx_nittygritty/semanticNewsMetaOg/40; type=small; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:news.semantic.meta.og.article.published_time.action
+							published_time.action = getCreated
+							# cat=plugin.tx_nittygritty/semanticNewsMetaOg/45; type=small; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:news.semantic.meta.og.article.modified_time.action
+							modified_time.action = getModified
+							# cat=plugin.tx_nittygritty/semanticNewsMetaOg/50; type=small; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:news.semantic.meta.og.article.expiration_time.action
+							expiration_time.action = getExpires
+							# cat=plugin.tx_nittygritty/semanticNewsMetaOg/55; type=small; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:news.semantic.meta.og.article.author.action
+							author.action = getAuthorsLinks
+							# cat=plugin.tx_nittygritty/semanticNewsMetaOg/60; type=boolean; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:news.semantic.meta.og.article.author.multiple
+							author.multiple = 1
+							# cat=plugin.tx_nittygritty/semanticNewsMetaOg/65; type=small; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:news.semantic.meta.og.article.section.action
+							section.action = getFirstCategory
+							# cat=plugin.tx_nittygritty/semanticNewsMetaOg/70; type=small; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:news.semantic.meta.og.article.tag.action
+							tag.action = getNewsTags
+							# cat=plugin.tx_nittygritty/semanticNewsMetaOg/75; type=boolean; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:news.semantic.meta.og.article.tag.multiple
+							tag.multiple = 1
+						}
+					}
+					dc {
+						DC {
+							# cat=plugin.tx_nittygritty/semanticNewsMetaDc/10; type=small; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:news.semantic.meta.dc.DC.format.value
+							format.value = text/html
+							# cat=plugin.tx_nittygritty/semanticNewsMetaDc/12; type=small; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:news.semantic.meta.dc.DC.format.scheme
+							format.scheme = DCTERMS.IMT
+							# cat=plugin.tx_nittygritty/semanticNewsMetaDc/14; type=small; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:news.semantic.meta.dc.DC.type.value
+							type.value = text
+							# cat=plugin.tx_nittygritty/semanticNewsMetaDc/16; type=small; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:news.semantic.meta.dc.DC.type.scheme
+							type.scheme = DCTERMS.DCMIType
+							# cat=plugin.tx_nittygritty/semanticNewsMetaDc/18; type=small; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:news.semantic.meta.dc.DC.creator.action
+							creator.action = getAuthors
+							# cat=plugin.tx_nittygritty/semanticNewsMetaDc/20; type=boolean; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:news.semantic.meta.dc.DC.creator.multiple
+							creator.multiple = 1
+							# cat=plugin.tx_nittygritty/semanticNewsMetaDc/22; type=small; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:news.semantic.meta.dc.DC.publisher.value
+							publisher.value = Thomas Skierlo
+							# cat=plugin.tx_nittygritty/semanticNewsMetaDc/24; type=small; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:news.semantic.meta.dc.DC.title.action
+							title.action = getTitle
+							# cat=plugin.tx_nittygritty/semanticNewsMetaDc/26; type=small; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:news.semantic.meta.dc.DC.date.action
+							date.action = getModified
+							# cat=plugin.tx_nittygritty/semanticNewsMetaDc/28; type=small; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:news.semantic.meta.dc.DC.date.scheme
+							date.scheme = W3CDTF
+							# cat=plugin.tx_nittygritty/semanticNewsMetaDc/30; type=small; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:news.semantic.meta.dc.DC.identifier.action
+							identifier.action = getUrl
+							# cat=plugin.tx_nittygritty/semanticNewsMetaDc/32; type=small; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:news.semantic.meta.dc.DC.identifier.scheme
+							identifier.scheme = URI
+							# cat=plugin.tx_nittygritty/semanticNewsMetaDc/34; type=small; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:news.semantic.meta.dc.DC.subject.action
+							subject.action = getKeywordsString
+							# cat=plugin.tx_nittygritty/semanticNewsMetaDc/36; type=small; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:news.semantic.meta.dc.DC.description.action
+							description.action = getDescription
+							# cat=plugin.tx_nittygritty/semanticNewsMetaDc/38; type=small; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:news.semantic.meta.dc.DC.language.action
+							language.action = getLanguage
+							# cat=plugin.tx_nittygritty/semanticNewsMetaDc/40; type=small; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:news.semantic.meta.dc.DC.language.scheme
+							language.scheme = RFC3066
+						}
+						DCTERMS {
+							# cat=plugin.tx_nittygritty/semanticNewsMetaDc/50; type=string; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:news.semantic.meta.dc.DCTERMS.license.value
+							license.value = http://creativecommons.org/licenses/by-nc-sa/3.0/de/
+							# cat=plugin.tx_nittygritty/semanticNewsMetaDc/52; type=small; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:news.semantic.meta.dc.DCTERMS.license.scheme
+							license.scheme = DCTERMS.URI
+							# cat=plugin.tx_nittygritty/semanticNewsMetaDc/54; type=small; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:news.semantic.meta.dc.DCTERMS.modified.action
+							modified.action = getModified
+							# cat=plugin.tx_nittygritty/semanticNewsMetaDc/56; type=small; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:news.semantic.meta.dc.DCTERMS.modified.scheme
+							modified.scheme = DCTERMS.W3CDTF
+							# cat=plugin.tx_nittygritty/semanticNewsMetaDc/58; type=small; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:news.semantic.meta.dc.DCTERMS.created.action
+							created.action = getCreated
+							# cat=plugin.tx_nittygritty/semanticNewsMetaDc/60; type=small; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:news.semantic.meta.dc.DCTERMS.created.scheme
+							created.scheme = DCTERMS.W3CDTF
+							# cat=plugin.tx_nittygritty/semanticNewsMetaDc/62; type=small; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:news.semantic.meta.dc.DCTERMS.rightsHolder.action
+							rightsHolder.action = getAuthors
+							# cat=plugin.tx_nittygritty/semanticNewsMetaDc/64; type=small; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:news.semantic.meta.dc.DCTERMS.rightsHolder.multiple
+							rightsHolder.multiple = 1
+							# cat=plugin.tx_nittygritty/semanticNewsMetaDc/66; type=small; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:news.semantic.meta.dc.DCTERMS.alternative.action
+							alternative.action = getAlternativeTitle
+						}
+					}
+				}
+			}
+		}
+		socialshareprivacy {
+			# cat=plugin.tx_nittygritty/Cssp/10; type=string; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.socialshareprivacy.info_link
+			info_link = www.heise.de/ct/artikel/2-Klicks-fuer-mehr-Datenschutz-1333879.html
+			# cat=plugin.tx_nittygritty/Cssp/20; type=string; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.socialshareprivacy.css_path
+			css_path = typo3conf/ext/nittygritty/Resources/Public/Contrib/socialshareprivacy/socialshareprivacy/socialshareprivacy.css
+			# cat=plugin.tx_nittygritty/Cssp/30; type=string; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.socialshareprivacy.js_path
+			js_path = typo3conf/ext/nittygritty/Resources/Public/Contrib/socialshareprivacy/jquery.socialshareprivacy.js
+			# cat=plugin.tx_nittygritty/Cssp/40; type=string; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.socialshareprivacy.imageDirPath
+			imageDirPath = typo3conf/ext/nittygritty/Resources/Public/Contrib/socialshareprivacy/socialshareprivacy/images/
+			# cat=plugin.tx_nittygritty/Cssp/50; type=small; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.socialshareprivacy.cookie_path
+			cookie_path = /
+			# cat=plugin.tx_nittygritty/Cssp/60; type=small; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.socialshareprivacy.cookie_domain
+			cookie_domain =
+			# cat=plugin.tx_nittygritty/Cssp/70; type=small; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.socialshareprivacy.cookie_expires
+			cookie_expires = 365
+			services {
+				facebook {
+					# cat=plugin.tx_nittygritty/Dsspservices/10; type=options[LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:on=on,LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:off=off]; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.socialshareprivacy.services.facebook.status
+					status = on
+					# cat=plugin.tx_nittygritty/Dsspservices/12; type=options[LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:on=on,LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:off=off]; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.socialshareprivacy.services.facebook.perma_option
+					perma_option = on
+					# cat=plugin.tx_nittygritty/Dsspservices/15; type=small; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.socialshareprivacy.services.facebook.display_name
+					display_name = Facebook
+					# cat=plugin.tx_nittygritty/Dsspservices/20; type=options[LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.socialshareprivacy.services.language.auto=auto,English=en,Danish=da,German=de,Spanish=es,French=fr,Dutch=nl,Italian=it,Polish=pl,Russian=ru,Portuguese=pt]; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.socialshareprivacy.services.facebook.language
+					language = auto
+					# cat=plugin.tx_nittygritty/Dsspservices/25; type=options[LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.socialshareprivacy.services.facebook.action.recommend=recommend,LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.socialshareprivacy.services.facebook.action.like=like]; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.socialshareprivacy.services.facebook.action
+					action = recommend
+					# cat=plugin.tx_nittygritty/Dsspservices/30; type=string; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.socialshareprivacy.services.facebook.referrer_track
+					referrer_track = 
+				}
+				twitter {
+					# cat=plugin.tx_nittygritty/Dsspservices/35; type=options[LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:on=on,LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:off=off]; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.socialshareprivacy.services.twitter.status
+					status = on
+					# cat=plugin.tx_nittygritty/Dsspservices/40; type=options[LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:on=on,LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:off=off]; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.socialshareprivacy.services.twitter.perma_option
+					perma_option = on
+					# cat=plugin.tx_nittygritty/Dsspservices/45; type=small; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.socialshareprivacy.services.twitter.display_name
+					display_name = Twitter
+					# cat=plugin.tx_nittygritty/Dsspservices/50; type=options[LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.socialshareprivacy.services.language.auto=auto,English=en,Danish=da,German=de,Spanish=es,French=fr,Dutch=nl,Italian=it,Polish=pl,Russian=ru,Portuguese=pt]; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.socialshareprivacy.services.twitter.language
+					language = auto
+					# cat=plugin.tx_nittygritty/Dsspservices/55; type=string; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.socialshareprivacy.services.twitter.referrer_track
+					referrer_track = 
+				}
+				gplus {
+					# cat=plugin.tx_nittygritty/Dsspservices/60; type=options[LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:on=on,LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:off=off]; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.socialshareprivacy.services.gplus.status
+					status = on
+					# cat=plugin.tx_nittygritty/Dsspservices/65; type=options[LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:on=on,LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:off=off]; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.socialshareprivacy.services.gplus.perma_option
+					perma_option = on
+					# cat=plugin.tx_nittygritty/Dsspservices/70; type=small; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.socialshareprivacy.services.gplus.display_name
+					display_name = Google+
+					# cat=plugin.tx_nittygritty/Dsspservices/75; type=options[LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.socialshareprivacy.services.language.auto=auto,English=en,Danish=da,German=de,Spanish=es,French=fr,Dutch=nl,Italian=it,Polish=pl,Russian=RU,Portuguese=pt]; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.socialshareprivacy.services.gplus.language
+					language = en
+					# cat=plugin.tx_nittygritty/Dsspservices/80; type=string; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.socialshareprivacy.services.gplus.referrer_track
+					referrer_track = 
+				}
+				xing {
+					# cat=plugin.tx_nittygritty/Dsspservices/85; type=options[LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:on=on,LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:off=off]; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.socialshareprivacy.services.xing.status
+					status = on
+					# cat=plugin.tx_nittygritty/Dsspservices/90; type=options[LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:on=on,LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:off=off]; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.socialshareprivacy.services.xing.perma_option
+					perma_option = on
+					# cat=plugin.tx_nittygritty/Dsspservices/95; type=small; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.socialshareprivacy.services.xing.display_name
+					display_name = Xing
+					# cat=plugin.tx_nittygritty/Dsspservices/97; type=options[LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.socialshareprivacy.services.language.auto=auto,English=en,German=de]; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.socialshareprivacy.services.xing.language
+					language = de
+					# cat=plugin.tx_nittygritty/Dsspservices/99; type=string; label=LLL:EXT:nittygritty/Resources/Private/Language/locallang_be.xlf:element.socialshareprivacy.services.xing.referrer_track
+					referrer_track =
+				}
+			}
+		}
+	}
+}

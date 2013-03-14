@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2012-08-21T10:29:21Z" product-name="nittygritty">
+		<header/>
+		<body>
+			<trans-unit id="pi1_title">
+				<source>TSC Plugin Collection</source>
+				<target>TSC Plugin Sammlung</target>
+			</trans-unit>
+			<trans-unit id="pi1_plus_wiz_description">
+				<source>Versatile Plugin Collection</source>
+				<target>Vielseitige Plugin Sammlung</target>
+			</trans-unit>
+			<trans-unit id="flexforms_tab.settings">
+				<source>General Settings</source>
+				<target>Allgemeine Einstellungen</target>
+			</trans-unit>
+			<trans-unit id="flexforms_tab.element">
+				<source>Element Settings</source>
+				<target>Element Einstellungen</target>
+			</trans-unit>
+			<trans-unit id="flexforms_general.mode">
+				<source>Element Type</source>
+				<target>Element Typ</target>
+			</trans-unit>
+			<trans-unit id="flexforms_general.mode.socialshareprivacy">
+				<source>Social Share Privacy</source>
+				<target>Social Share Privacy</target>
+			</trans-unit>
+			<trans-unit id="flexforms_general.mode.xyz">
+				<source>X, Y or Z</source>
+				<target>X, Y oder Z</target>
+			</trans-unit>
+			<trans-unit id="element.socialshareprivacy.basic.category">
+				<source>Basic</source>
+				<target>Allgemein</target>
+			</trans-unit>
+			<trans-unit id="element.socialshareprivacy.site.category">
+				<source>Site Settings</source>
+				<target>Website Einstellungen</target>
+			</trans-unit>
+			<trans-unit id="element.socialshareprivacy.ssp.category">
+				<source>Social Share Privacy</source>
+				<target>Social Share Privacy</target>
+			</trans-unit>
+			<trans-unit id="element.socialshareprivacy.sspservices.category">
+				<source>SSP Services</source>
+				<target>SSP Dienste</target>
+			</trans-unit>
+			<trans-unit id="element.news.semantic.general.category">
+				<source>Semantic News - General Settings</source>
+				<target>Semantische Nachrichten - allgemeine Einstellungen</target>
+			</trans-unit>
+			<trans-unit id="element.news.semantic.metaBase.category">
+				<source>Semantic News - Meta Category Settings</source>
+				<target>Semantische Nachrichten - Meta Kategorien Einstellungen</target>
+			</trans-unit>
+			<trans-unit id="element.news.semantic.meta.meta.category">
+				<source>Semantic News - Meta Tags Settings</source>
+				<target>Semantische Nachrichten - Meta Tags Einstellungen</target>
+			</trans-unit>
+			<trans-unit id="element.news.semantic.meta.og.category">
+				<source>Semantic News - Open Graph Tags Settings</source>
+				<target>Semantische Nachrichten - Open Graph Tags Einstellungen</target>
+			</trans-unit>
+			<trans-unit id="element.news.semantic.meta.dc.category">
+				<source>Semantic News - Dublin Core Tags Settings</source>
+				<target>Semantische Nachrichten - Dublin Core Tags Einstellungen</target>
+			</trans-unit>
+			<trans-unit id="element.socialshareprivacy.cookie_path">
+				<source>Cookie Path</source>
+				<target>Cookie Pfad</target>
+			</trans-unit>
+			<trans-unit id="element.socialshareprivacy.cookie_domain">
+				<source>Cookie Domain</source>
+				<target>Cookie Domain</target>
+			</trans-unit>
+			<trans-unit id="element.socialshareprivacy.cookie_expires">
+				<source>Cookie expires (days, default: 365)</source>
+				<target>Cookie Gültigkeit (in Tagen, default: 365)</target>
+			</trans-unit>
+			<trans-unit id="element.general.noJsLibraryInclude">
+				<source>Do not include Javascript Library</source>
+				<target>Keine Javascript Bibliothek anfügen</target>
+			</trans-unit>
+			<trans-unit id="element.general.noCssInclude">
+				<source>Do not include CSS file</source>
+				<target>Keinen CSS File anfügen</target>
+			</trans-unit>
+			<trans-unit id="element.site.siteName">
+				<source>Site Name</source>
+				<target>Name der Website</target>
+			</trans-unit>
+			<trans-unit id="element.site.authors.usr1.name">
+				<source>Author name 1</source>
+				<target>Autorenname 1</target>
+			</trans-unit>
+			<trans-unit id="element.site.authors.usr2.name">
+				<source>Author name 2</source>
+				<target>Autorenname 2</target>
+			</trans-unit>
+			<trans-unit id="element.site.authors.usr1.nameShort">
+				<source>Author 1 short name</source>
+				<target>Autorenname 1 Kürzel</target>
+			</trans-unit>
+			<trans-unit id="element.site.authors.usr2.nameShort">
+				<source>Author 2 short name</source>
+				<target>Autorenname 2 Kürzel</target>
+			</trans-unit>
+			<trans-unit id="element.site.authors.usr1.uri">
+				<source>Author 1 Link</source>
+				<target>Autor 1 Link</target>
+			</trans-unit>
+			<trans-unit id="element.site.authors.usr2.uri">
+				<source>Author 2 Link</source>
+				<target>Autor 2 Link</target>
+			</trans-unit>
+			<trans-unit id="element.general.jsInFooter">
+				<source>Place Javascript in Footer</source>
+				<target>Javascript am Seitenende platzieren</target>
+			</trans-unit>
+			<trans-unit id="element.socialshareprivacy.info_link">
+				<source>Social Share Privacy Info Link</source>
+				<target>Social Share Privacy Info Link</target>
+			</trans-unit>
+			<trans-unit id="element.socialshareprivacy.css_path">
+				<source>Socialshareprivacy CSS File Path</source>
+				<target>Socialshareprivacy CSS Dateipfad</target>
+			</trans-unit>
+			<trans-unit id="element.socialshareprivacy.js_path">
+				<source>Socialshareprivacy JS File Path</source>
+				<target>Socialshareprivacy JS Dateipfad</target>
+			</trans-unit>
+			<trans-unit id="element.socialshareprivacy.imageDirPath">
+				<source>Image Directory Path</source>
+				<target>Pfad zum Bildverzeichnis</target>
+			</trans-unit>
+			<trans-unit id="element.socialshareprivacy.uri">
+				<source>Share URI</source>
+				<target>Share URI</target>
+			</trans-unit>
+			<trans-unit id="element.socialshareprivacy.services.facebook.display_name">
+				<source>Facebook Service Name</source>
+				<target>Facebook Service Name</target>
+			</trans-unit>
+			<trans-unit id="element.socialshareprivacy.services.twitter.display_name">
+				<source>Twitter Service Name</source>
+				<target>Twitter Service Name</target>
+			</trans-unit>
+			<trans-unit id="element.socialshareprivacy.services.gplus.display_name">
+				<source>Google+ Service Name</source>
+				<target>Google+ Service Name</target>
+			</trans-unit>
+			<trans-unit id="element.socialshareprivacy.services.xing.display_name">
+				<source>Xing Service Name</source>
+				<target>Xing Service Name</target>
+			</trans-unit>
+			<trans-unit id="element.socialshareprivacy.services.language.auto">
+				<source>Auto</source>
+				<target>Automatik</target>
+			</trans-unit>
+			<trans-unit id="element.socialshareprivacy.services.facebook.language">
+				<source>Facebook Locale</source>
+				<target>Facebook Locale</target>
+			</trans-unit>
+			<trans-unit id="element.socialshareprivacy.services.twitter.language">
+				<source>Twitter Locale</source>
+				<target>Twitter Locale</target>
+			</trans-unit>
+			<trans-unit id="element.socialshareprivacy.services.gplus.language">
+				<source>Google+ Locale</source>
+				<target>Google+ Locale</target>
+			</trans-unit>
+			<trans-unit id="element.socialshareprivacy.services.xing.language">
+				<source>Xing Locale</source>
+				<target>Xing Locale</target>
+			</trans-unit>
+			<trans-unit id="on">
+				<source>On</source>
+				<target>An</target>
+			</trans-unit>
+			<trans-unit id="off">
+				<source>Off</source>
+				<target>Aus</target>
+			</trans-unit>
+			<trans-unit id="element.socialshareprivacy.services.facebook.status">
+				<source>Facebook Status</source>
+				<target>Facebook Status</target>
+			</trans-unit>
+			<trans-unit id="element.socialshareprivacy.services.facebook.perma_option">
+				<source>Enable Facebook permanently option</source>
+				<target>Option, den Facebook Button dauerhaft zu aktivieren</target>
+			</trans-unit>
+			<trans-unit id="element.socialshareprivacy.services.facebook.action">
+				<source>Facebook Action</source>
+				<target>Facebook Aktion</target>
+			</trans-unit>
+			<trans-unit id="element.socialshareprivacy.services.facebook.action.recommend">
+				<source>Recommend</source>
+				<target>Empfehlen</target>
+			</trans-unit>
+			<trans-unit id="element.socialshareprivacy.services.facebook.action.like">
+				<source>Like</source>
+				<target>Gefällt mir</target>
+			</trans-unit>
+			<trans-unit id="element.socialshareprivacy.services.facebook.appId">
+				<source>Facebook App ID</source>
+				<target>Facebook App ID</target>
+			</trans-unit>
+			<trans-unit id="element.socialshareprivacy.services.twitter.status">
+				<source>Twitter Status</source>
+				<target>Twitter Status</target>
+			</trans-unit>
+			<trans-unit id="element.socialshareprivacy.services.twitter.perma_option">
+				<source>Enable Twitter permanently option</source>
+				<target>Twitter permanent aktivieren Option</target>
+			</trans-unit>
+			<trans-unit id="element.socialshareprivacy.services.twitter.tweet_text">
+				<source>Twitter Tweet Text</source>
+				<target>Twitter Tweet Text</target>
+			</trans-unit>
+			<trans-unit id="element.socialshareprivacy.services.facebook.referrer_track">
+				<source>Facebook Referrer Track</source>
+				<target>Facebook Referrer Track</target>
+			</trans-unit>
+			<trans-unit id="element.socialshareprivacy.services.twitter.referrer_track">
+				<source>Twitter Referrer Track</source>
+				<target>Twitter Referrer Track</target>
+			</trans-unit>
+			<trans-unit id="element.socialshareprivacy.services.gplus.referrer_track">
+				<source>Google+ Referrer Track</source>
+				<target>Google+ Referrer Track</target>
+			</trans-unit>
+			<trans-unit id="element.socialshareprivacy.services.gplus.status">
+				<source>Google+ Status</source>
+				<target>Google+ Status</target>
+			</trans-unit>
+			<trans-unit id="element.socialshareprivacy.services.gplus.perma_option">
+				<source>Enable Google+ permanently option</source>
+				<target>Google+ permanent aktivieren Option</target>
+			</trans-unit>
+			<trans-unit id="element.socialshareprivacy.services.xing.referrer_track">
+				<source>Xing Referrer Track</source>
+				<target>Xing Referrer Track</target>
+			</trans-unit>
+			<trans-unit id="element.socialshareprivacy.services.xing.status">
+				<source>Xing Status</source>
+				<target>Xing Status</target>
+			</trans-unit>
+			<trans-unit id="element.socialshareprivacy.services.xing.perma_option">
+				<source>Enable Xing permanently option</source>
+				<target>Xing permanent aktivieren Option</target>
+			</trans-unit>
+			<trans-unit id="news.semantic.general.pageTitle.action">
+				<source>Page Title Action</source>
+				<target>Aktion für Seitentitel</target>
+			</trans-unit>
+			<trans-unit id="news.semantic.general.pageTitle.useAlternate">
+				<source>Use alternate news title as page title</source>
+				<target>Alternativer Nachrichtentitel als Seitentitel nutzen</target>
+			</trans-unit>
+			<trans-unit id="news.semantic.general.description.action">
+				<source>Description Action</source>
+				<target>Aktion für Beschreibung</target>
+			</trans-unit>
+			<trans-unit id="news.semantic.general.description.crop">
+				<source>Description Crop (No. of Characters)</source>
+				<target>Beschreibung kürzen (Anzahl Zeichen)</target>
+			</trans-unit>
+			<trans-unit id="news.semantic.general.keywords.action">
+				<source>Keywords Action</source>
+				<target>Aktion für Stichworte</target>
+			</trans-unit>
+			<trans-unit id="news.semantic.general.keywords.limit">
+				<source>Limit Keywords (Number)</source>
+				<target>Stichworte begrenzen (Anzahl)</target>
+			</trans-unit>
+			<trans-unit id="news.semantic.general.author.max">
+				<source>Max. No. of Authors</source>
+				<target>Max. Autorenzahl</target>
+			</trans-unit>
+			<trans-unit id="news.semantic.general.metaTitle">
+				<source>Title used for Meta tags</source>
+				<target>Titel für Meta Tags</target>
+			</trans-unit>
+			<trans-unit id="news.semantic.metaBase.meta.build">
+				<source>Build Meta Tags</source>
+				<target>Erstelle Meta Tags</target>
+			</trans-unit>
+			<trans-unit id="news.semantic.metaBase.meta.dateFormat">
+				<source>Meta Date Format</source>
+				<target>Meta Datumsformat</target>
+			</trans-unit>
+			<trans-unit id="news.semantic.metaBase.og.build">
+				<source>Build Open Graph Tags</source>
+				<target>Erstelle Open Graph Tags</target>
+			</trans-unit>
+			<trans-unit id="news.semantic.metaBase.og.dateFormat">
+				<source>Open Graph Date Format</source>
+				<target>Open Graph Datumsformat</target>
+			</trans-unit>
+			<trans-unit id="news.semantic.metaBase.dc.build">
+				<source>Build Dublin Core Tags</source>
+				<target>Erstelle Dublin Core Tags</target>
+			</trans-unit>
+			<trans-unit id="news.semantic.metaBase.dc.dateFormat">
+				<source>Dublin Core Date Format</source>
+				<target>Dublin Core Datumsformat</target>
+			</trans-unit>
+			<trans-unit id="news.semantic.meta.meta.description.action">
+				<source>Meta Description Action</source>
+				<target>Meta Description Aktion</target>
+			</trans-unit>
+			<trans-unit id="news.semantic.meta.meta.keywords.action">
+				<source>Meta Keywords Action</source>
+				<target>Meta Keywords Aktion</target>
+			</trans-unit>
+			<trans-unit id="news.semantic.meta.meta.author.action">
+				<source>Meta Author(s) Action</source>
+				<target>Meta Author(s) Aktion</target>
+			</trans-unit>
+			<trans-unit id="news.semantic.meta.meta.author.multiple">
+				<source>Allow multiple Authors</source>
+				<target>Mehrere Autoren zulassen</target>
+			</trans-unit>
+			<trans-unit id="news.semantic.meta.meta.date.action">
+				<source>Meta Date Action</source>
+				<target>Meta Date Aktion</target>
+			</trans-unit>
+			<trans-unit id="news.semantic.meta.meta.news_keywords.action">
+				<source>Meta Google News Keywords Action</source>
+				<target>Meta Google News Keywords Aktion</target>
+			</trans-unit>
+			<trans-unit id="news.semantic.meta.og.fb.appId">
+				<source>Facebook App Id</source>
+				<target>Facebook App Id</target>
+			</trans-unit>
+			<trans-unit id="news.semantic.meta.og.og.type">
+				<source>OG Type</source>
+				<target>OG Typ</target>
+			</trans-unit>
+			<trans-unit id="news.semantic.meta.og.og.url.action">
+				<source>OG Url Action</source>
+				<target>OG Url Aktion</target>
+			</trans-unit>
+			<trans-unit id="news.semantic.meta.og.og.site_name.action">
+				<source>OG Sitename Action</source>
+				<target>OG Sitename Aktion</target>
+			</trans-unit>
+			<trans-unit id="news.semantic.meta.og.og.image.action">
+				<source>OG Image Action</source>
+				<target>OG Image Aktion</target>
+			</trans-unit>
+			<trans-unit id="news.semantic.meta.og.og.title.action">
+				<source>OG Title Action</source>
+				<target>OG Titel Aktion</target>
+			</trans-unit>
+			<trans-unit id="news.semantic.meta.og.og.description.action">
+				<source>OG Description Action</source>
+				<target>OG Description Aktion</target>
+			</trans-unit>
+			<trans-unit id="news.semantic.meta.og.article.published_time.action">
+				<source>ARTICLE Published Time Action</source>
+				<target>ARTICLE Aktion für Veröffentlicht am</target>
+			</trans-unit>
+			<trans-unit id="news.semantic.meta.og.article.modified_time.action">
+				<source>ARTICLE Last Modified Time Action</source>
+				<target>ARTICLE Aktion für letzte Änderung</target>
+			</trans-unit>
+			<trans-unit id="news.semantic.meta.og.article.expiration_time.action">
+				<source>ARTICLE Expires Time Action</source>
+				<target>ARTICLE Aktion für Ablaufdatum</target>
+			</trans-unit>
+			<trans-unit id="news.semantic.meta.og.article.author.action">
+				<source>ARTICLE Author(s) Action</source>
+				<target>ARTICLE Aktion für Autor(en)</target>
+			</trans-unit>
+			<trans-unit id="news.semantic.meta.og.article.author.multiple">
+				<source>ARTICLE Multiple Author tags</source>
+				<target>ARTICLE Mehrere Autoren Tags</target>
+			</trans-unit>
+			<trans-unit id="news.semantic.meta.og.article.section.action">
+				<source>ARTICLE Section Action</source>
+				<target>ARTICLE Section Aktion</target>
+			</trans-unit>
+			<trans-unit id="news.semantic.meta.og.article.tag.action">
+				<source>ARTICLE Tag(s) Action</source>
+				<target>ARTICLE Tag(s) Aktion</target>
+			</trans-unit>
+			<trans-unit id="news.semantic.meta.og.article.tag.multiple">
+				<source>ARTICLE Multiple Tag Tags</source>
+				<target>ARTICLE Mehrere Tag Tags</target>
+			</trans-unit>
+			<trans-unit id="news.semantic.meta.dc.DC.format.value">
+				<source>DC Format</source>
+				<target>DC Format</target>
+			</trans-unit>
+			<trans-unit id="news.semantic.meta.dc.DC.format.scheme">
+				<source>DC Format Scheme</source>
+				<target>DC Format Schema</target>
+			</trans-unit>
+			<trans-unit id="news.semantic.meta.dc.DC.type.value">
+				<source>DC Type</source>
+				<target>DC Typ</target>
+			</trans-unit>
+			<trans-unit id="news.semantic.meta.dc.DC.type.scheme">
+				<source>DC Type Scheme</source>
+				<target>DC Typ Schema</target>
+			</trans-unit>
+			<trans-unit id="news.semantic.meta.dc.DC.creator.action">
+				<source>DC Creator Action</source>
+				<target>DC Creator Aktion</target>
+			</trans-unit>
+			<trans-unit id="news.semantic.meta.dc.DC.creator.multiple">
+				<source>Multiple DC Creators</source>
+				<target>Mehrere DC Creator</target>
+			</trans-unit>
+			<trans-unit id="news.semantic.meta.dc.DC.publisher.value">
+				<source>DC Publisher</source>
+				<target>DC Publisher</target>
+			</trans-unit>
+			<trans-unit id="news.semantic.meta.dc.DC.title.action">
+				<source>DC Title Action</source>
+				<target>DC Titel Aktion</target>
+			</trans-unit>
+			<trans-unit id="news.semantic.meta.dc.DC.date.action">
+				<source>DC Date Action</source>
+				<target>DC Date Aktion</target>
+			</trans-unit>
+			<trans-unit id="news.semantic.meta.dc.DC.date.scheme">
+				<source>DC Date Scheme</source>
+				<target>DC Date Schema</target>
+			</trans-unit>
+			<trans-unit id="news.semantic.meta.dc.DC.identifier.action">
+				<source>DC Identifier Action</source>
+				<target>DC Identifier Aktion</target>
+			</trans-unit>
+			<trans-unit id="news.semantic.meta.dc.DC.identifier.scheme">
+				<source>DC Identifier Scheme</source>
+				<target>DC Identifier Schema</target>
+			</trans-unit>
+			<trans-unit id="news.semantic.meta.dc.DC.subject.action">
+				<source>DC Subject Action</source>
+				<target>DC Subject Aktion</target>
+			</trans-unit>
+			<trans-unit id="news.semantic.meta.dc.DC.description.action">
+				<source>DC Description Action</source>
+				<target>DC Description Aktion</target>
+			</trans-unit>
+			<trans-unit id="news.semantic.meta.dc.DC.language.action">
+				<source>DC Language Action</source>
+				<target>DC Language Aktion</target>
+			</trans-unit>
+			<trans-unit id="news.semantic.meta.dc.DC.language.scheme">
+				<source>DC Language Scheme</source>
+				<target>DC Language Schema</target>
+			</trans-unit>
+			<trans-unit id="news.semantic.meta.dc.DCTERMS.license.value">
+				<source>DCTERMS License</source>
+				<target>DCTERMS License</target>
+			</trans-unit>
+			<trans-unit id="news.semantic.meta.dc.DCTERMS.license.scheme">
+				<source>DCTERMS License Scheme</source>
+				<target>DCTERMS License Schema</target>
+			</trans-unit>
+			<trans-unit id="news.semantic.meta.dc.DCTERMS.modified.action">
+				<source>DCTERMS Modified Action</source>
+				<target>DCTERMS Modified Aktion</target>
+			</trans-unit>
+			<trans-unit id="news.semantic.meta.dc.DCTERMS.modified.scheme">
+				<source>DCTERMS Modified Scheme</source>
+				<target>DCTERMS Modified Schema</target>
+			</trans-unit>
+			<trans-unit id="news.semantic.meta.dc.DCTERMS.created.action">
+				<source>DCTERMS Created Action</source>
+				<target>DCTERMS Created Aktion</target>
+			</trans-unit>
+			<trans-unit id="news.semantic.meta.dc.DCTERMS.created.scheme">
+				<source>DCTERMS Created Scheme</source>
+				<target>DCTERMS Created Schema</target>
+			</trans-unit>
+			<trans-unit id="news.semantic.meta.dc.DCTERMS.rightsHolder.action">
+				<source>DCTERMS Rights Holder Action</source>
+				<target>DCTERMS Rights Holder Aktion</target>
+			</trans-unit>
+			<trans-unit id="news.semantic.meta.dc.DCTERMS.rightsHolder.multiple">
+				<source>DCTERMS Multiple Rights Holders</source>
+				<target>DCTERMS Mehrere Rights Holders</target>
+			</trans-unit>
+			<trans-unit id="news.semantic.meta.dc.DCTERMS.alternative.action">
+				<source>DCTERMS Alternative Action</source>
+				<target>DCTERMS Alternative Aktion</target>
+			</trans-unit>
+			<trans-unit id="option.replace">
+				<source>Replace</source>
+				<target>Ersetzen</target>
+			</trans-unit>
+			<trans-unit id="option.prepend">
+				<source>Prepend</source>
+				<target>Voranstellen</target>
+			</trans-unit>
+			<trans-unit id="option.append">
+				<source>Append</source>
+				<target>Anhängen</target>
+			</trans-unit>
+
+
+		</body>
+	</file>
+</xliff>

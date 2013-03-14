@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2013-01-24T11:52:24Z" product-name="nittygritty">
+		<header/>
+		<body>
+			<trans-unit id="common.or">
+				<source>or</source>
+			</trans-unit>
+			<trans-unit id="common.and">
+				<source>and</source>
+			</trans-unit>
+			<trans-unit id="socialshareprivacy.txt_help">
+				<source>After enabling the fields by a click, information will be sent to %s. This information will possibly be stored and processed. Storage may happen outside of the EU. Click on the %s to read more.</source>
+			</trans-unit>
+			<trans-unit id="socialshareprivacy.settings_perma">
+				<source>Enable permanently and accept data transmission:</source>
+			</trans-unit>
+			<trans-unit id="socialshareprivacy.services.text_info">
+				<source>2 Clicks for more privacy: Click to enable the button. Send your recommendation to %s with the next click. By activating the service information will be sent to third parties - see %s</source>
+			</trans-unit>
+			<trans-unit id="socialshareprivacy.services.txt_service_off">
+				<source>Not connected with %s</source>
+			</trans-unit>
+			<trans-unit id="socialshareprivacy.services.txt_service_on">
+				<source>Connected with %s</source>
+			</trans-unit>			
+		</body>
+	</file>
+</xliff>

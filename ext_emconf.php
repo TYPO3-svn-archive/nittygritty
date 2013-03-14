@@ -1,0 +1,45 @@
+<?php
+
+/***************************************************************
+ * Extension Manager/Repository config file for ext "nittygritty".
+ *
+ * Auto generated 12-03-2013 11:36
+ *
+ * Manual updates:
+ * Only the data in the array - everything else is removed by next
+ * writing. "version" and "dependencies" must not be touched!
+ ***************************************************************/
+
+$EM_CONF[$_EXTKEY] = array(
+	'title' => 'Nittygritty',
+	'description' => 'Nittygritty - Needful things for TYPO3',
+	'category' => 'plugin',
+	'author' => 'Thomas Skierlo',
+	'author_email' => 'tsk@pix-pro.eu',
+	'author_company' => 'TSC New Media Consulting',
+	'shy' => '',
+	'priority' => '',
+	'module' => '',
+	'state' => 'alpha',
+	'internal' => '',
+	'uploadfolder' => 0,
+	'createDirs' => '',
+	'modify_tables' => '',
+	'clearCacheOnLoad' => 0,
+	'lockType' => '',
+	'version' => '1.0.0',
+	'constraints' => array(
+		'depends' => array(
+			'extbase' => '1.5',
+			'fluid' => '1.5',
+			'typo3' => '4.7-0.0.0',
+		),
+		'conflicts' => array(
+		),
+		'suggests' => array(
+		),
+	),
+	'_md5_values_when_last_written' => 'a:87:{s:12:"ext_icon.gif";s:4:"e922";s:17:"ext_localconf.php";s:4:"1400";s:14:"ext_tables.php";s:4:"2235";s:14:"ext_tables.sql";s:4:"d41d";s:40:"Classes/Controller/ElementController.php";s:4:"3a7c";s:29:"Classes/Hooks/T3libBefunc.php";s:4:"cf5e";s:41:"Classes/Service/SettingsDemandService.php";s:4:"d302";s:26:"Classes/Utility/Arrays.php";s:4:"da98";s:50:"Classes/ViewHelpers/IncludeJsCssFileViewHelper.php";s:4:"a8ce";s:57:"Classes/ViewHelpers/IncludeJsCssInlineBlockViewHelper.php";s:4:"745f";s:53:"Classes/ViewHelpers/News/InjectNewsMetaViewHelper.php";s:4:"1307";s:44:"Classes/ViewHelpers/Social/SspViewHelper.php";s:4:"5432";s:40:"Configuration/FlexForms/flexform_pi1.xml";s:4:"1b5d";s:38:"Configuration/TypoScript/constants.txt";s:4:"3985";s:34:"Configuration/TypoScript/setup.txt";s:4:"eab9";s:43:"Resources/Private/Language/de.locallang.xlf";s:4:"dbb9";s:46:"Resources/Private/Language/de.locallang_be.xlf";s:4:"b738";s:57:"Resources/Private/Language/de.locallang_csh_flexforms.xlf";s:4:"a1aa";s:40:"Resources/Private/Language/locallang.xlf";s:4:"81c3";s:43:"Resources/Private/Language/locallang_be.xlf";s:4:"2315";s:54:"Resources/Private/Language/locallang_csh_flexforms.xlf";s:4:"8154";s:43:"Resources/Private/Language/locallang_db.xlf";s:4:"491a";s:38:"Resources/Private/Layouts/Default.html";s:4:"7be1";s:51:"Resources/Private/Php/class.nittygritty_wizicon.php";s:4:"6178";s:48:"Resources/Private/Templates/Element/ShowSsp.html";s:4:"ec8a";s:48:"Resources/Private/Templates/Element/ShowXyz.html";s:4:"db6e";s:64:"Resources/Public/Contrib/socialshareprivacy/2-klick-logo_min.jpg";s:4:"fc46";s:58:"Resources/Public/Contrib/socialshareprivacy/dimensions.gif";s:4:"6a3c";s:54:"Resources/Public/Contrib/socialshareprivacy/index.html";s:4:"2473";s:72:"Resources/Public/Contrib/socialshareprivacy/jquery.socialshareprivacy.js";s:4:"8922";s:76:"Resources/Public/Contrib/socialshareprivacy/jquery.socialshareprivacy.js.org";s:4:"cf44";s:76:"Resources/Public/Contrib/socialshareprivacy/jquery.socialshareprivacy.min.js";s:4:"b94d";s:85:"Resources/Public/Contrib/socialshareprivacy/socialshareprivacy/socialshareprivacy.css";s:4:"0dba";s:86:"Resources/Public/Contrib/socialshareprivacy/socialshareprivacy/images/2-klick-logo.jpg";s:4:"66cb";s:88:"Resources/Public/Contrib/socialshareprivacy/socialshareprivacy/images/dummy_facebook.png";s:4:"3bdd";s:91:"Resources/Public/Contrib/socialshareprivacy/socialshareprivacy/images/dummy_facebook_en.png";s:4:"bc52";s:85:"Resources/Public/Contrib/socialshareprivacy/socialshareprivacy/images/dummy_gplus.png";s:4:"ba29";s:89:"Resources/Public/Contrib/socialshareprivacy/socialshareprivacy/images/dummy_gplus_alt.png";s:4:"37e0";s:87:"Resources/Public/Contrib/socialshareprivacy/socialshareprivacy/images/dummy_twitter.png";s:4:"fe08";s:82:"Resources/Public/Contrib/socialshareprivacy/socialshareprivacy/images/settings.png";s:4:"8648";s:97:"Resources/Public/Contrib/socialshareprivacy/socialshareprivacy/images/socialshareprivacy_info.png";s:4:"802e";s:99:"Resources/Public/Contrib/socialshareprivacy/socialshareprivacy/images/socialshareprivacy_on_off.png";s:4:"498e";s:91:"Resources/Public/Contrib/socialshareprivacy/socialshareprivacy/images/da/dummy_facebook.png";s:4:"e014";s:96:"Resources/Public/Contrib/socialshareprivacy/socialshareprivacy/images/da/dummy_facebook_like.png";s:4:"d99b";s:88:"Resources/Public/Contrib/socialshareprivacy/socialshareprivacy/images/da/dummy_gplus.png";s:4:"ba29";s:90:"Resources/Public/Contrib/socialshareprivacy/socialshareprivacy/images/da/dummy_twitter.png";s:4:"2586";s:91:"Resources/Public/Contrib/socialshareprivacy/socialshareprivacy/images/de/dummy_facebook.png";s:4:"33b9";s:96:"Resources/Public/Contrib/socialshareprivacy/socialshareprivacy/images/de/dummy_facebook_like.png";s:4:"e2fa";s:88:"Resources/Public/Contrib/socialshareprivacy/socialshareprivacy/images/de/dummy_gplus.png";s:4:"ba29";s:90:"Resources/Public/Contrib/socialshareprivacy/socialshareprivacy/images/de/dummy_twitter.png";s:4:"c6a3";s:87:"Resources/Public/Contrib/socialshareprivacy/socialshareprivacy/images/de/dummy_xing.png";s:4:"7694";s:91:"Resources/Public/Contrib/socialshareprivacy/socialshareprivacy/images/en/dummy_facebook.png";s:4:"e3dc";s:96:"Resources/Public/Contrib/socialshareprivacy/socialshareprivacy/images/en/dummy_facebook_like.png";s:4:"027e";s:88:"Resources/Public/Contrib/socialshareprivacy/socialshareprivacy/images/en/dummy_gplus.png";s:4:"ba29";s:90:"Resources/Public/Contrib/socialshareprivacy/socialshareprivacy/images/en/dummy_twitter.png";s:4:"2d7b";s:87:"Resources/Public/Contrib/socialshareprivacy/socialshareprivacy/images/en/dummy_xing.png";s:4:"7694";s:91:"Resources/Public/Contrib/socialshareprivacy/socialshareprivacy/images/fr/dummy_facebook.png";s:4:"fb9d";s:96:"Resources/Public/Contrib/socialshareprivacy/socialshareprivacy/images/fr/dummy_facebook_like.png";s:4:"6361";s:88:"Resources/Public/Contrib/socialshareprivacy/socialshareprivacy/images/fr/dummy_gplus.png";s:4:"ba29";s:90:"Resources/Public/Contrib/socialshareprivacy/socialshareprivacy/images/fr/dummy_twitter.png";s:4:"9e92";s:91:"Resources/Public/Contrib/socialshareprivacy/socialshareprivacy/images/it/dummy_facebook.png";s:4:"3af7";s:96:"Resources/Public/Contrib/socialshareprivacy/socialshareprivacy/images/it/dummy_facebook_like.png";s:4:"0f60";s:88:"Resources/Public/Contrib/socialshareprivacy/socialshareprivacy/images/it/dummy_gplus.png";s:4:"ba29";s:90:"Resources/Public/Contrib/socialshareprivacy/socialshareprivacy/images/it/dummy_twitter.png";s:4:"2586";s:91:"Resources/Public/Contrib/socialshareprivacy/socialshareprivacy/images/nl/dummy_facebook.png";s:4:"d837";s:96:"Resources/Public/Contrib/socialshareprivacy/socialshareprivacy/images/nl/dummy_facebook_like.png";s:4:"b04f";s:88:"Resources/Public/Contrib/socialshareprivacy/socialshareprivacy/images/nl/dummy_gplus.png";s:4:"ba29";s:90:"Resources/Public/Contrib/socialshareprivacy/socialshareprivacy/images/nl/dummy_twitter.png";s:4:"0260";s:91:"Resources/Public/Contrib/socialshareprivacy/socialshareprivacy/images/pl/dummy_facebook.png";s:4:"7cb0";s:96:"Resources/Public/Contrib/socialshareprivacy/socialshareprivacy/images/pl/dummy_facebook_like.png";s:4:"49cf";s:88:"Resources/Public/Contrib/socialshareprivacy/socialshareprivacy/images/pl/dummy_gplus.png";s:4:"ba29";s:90:"Resources/Public/Contrib/socialshareprivacy/socialshareprivacy/images/pl/dummy_twitter.png";s:4:"214b";s:91:"Resources/Public/Contrib/socialshareprivacy/socialshareprivacy/images/pt/dummy_facebook.png";s:4:"8485";s:96:"Resources/Public/Contrib/socialshareprivacy/socialshareprivacy/images/pt/dummy_facebook_like.png";s:4:"3c74";s:88:"Resources/Public/Contrib/socialshareprivacy/socialshareprivacy/images/pt/dummy_gplus.png";s:4:"ba29";s:90:"Resources/Public/Contrib/socialshareprivacy/socialshareprivacy/images/pt/dummy_twitter.png";s:4:"c940";s:91:"Resources/Public/Contrib/socialshareprivacy/socialshareprivacy/images/ru/dummy_facebook.png";s:4:"979f";s:96:"Resources/Public/Contrib/socialshareprivacy/socialshareprivacy/images/ru/dummy_facebook_like.png";s:4:"d006";s:88:"Resources/Public/Contrib/socialshareprivacy/socialshareprivacy/images/ru/dummy_gplus.png";s:4:"ba29";s:90:"Resources/Public/Contrib/socialshareprivacy/socialshareprivacy/images/ru/dummy_twitter.png";s:4:"a9fc";s:91:"Resources/Public/Contrib/socialshareprivacy/socialshareprivacy/images/sp/dummy_facebook.png";s:4:"94be";s:96:"Resources/Public/Contrib/socialshareprivacy/socialshareprivacy/images/sp/dummy_facebook_like.png";s:4:"1268";s:88:"Resources/Public/Contrib/socialshareprivacy/socialshareprivacy/images/sp/dummy_gplus.png";s:4:"ba29";s:90:"Resources/Public/Contrib/socialshareprivacy/socialshareprivacy/images/sp/dummy_twitter.png";s:4:"8ea3";s:33:"Resources/Public/Icons/ce_wiz.gif";s:4:"95a3";s:35:"Resources/Public/Icons/relation.gif";s:4:"e615";s:14:"doc/manual.sxw";s:4:"0f2c";}',
+);
+
+?>

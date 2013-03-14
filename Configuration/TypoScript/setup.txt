@@ -1,0 +1,192 @@
+plugin.tx_nittygritty {
+	view {
+		templateRootPath = {$plugin.tx_nittygritty.view.templateRootPath}
+		partialRootPath = {$plugin.tx_nittygritty.view.partialRootPath}
+		layoutRootPath = {$plugin.tx_nittygritty.view.layoutRootPath}
+	}
+	features {
+		# uncomment the following line to enable the new Property Mapper.
+		# rewrittenPropertyMapper = 1
+	}
+	settings {
+		general {
+			jsInFooter = {$plugin.tx_nittygritty.settings.general.jsInFooter}
+			noJsLibraryInclude = {$plugin.tx_nittygritty.settings.general.noJsLibraryInclude}
+			noCssInclude = {$plugin.tx_nittygritty.settings.general.noCssInclude}
+		}
+		site {
+			siteName = {$plugin.tx_portable_layout.settings.siteName}
+			authors {
+				usr1 {
+					name = {$plugin.tx_nittygritty.settings.site.authors.usr1.name}
+					nameShort = {$plugin.tx_nittygritty.settings.site.authors.usr1.nameShort}
+					uri = {$plugin.tx_nittygritty.settings.site.authors.usr1.uri}
+				}
+				usr2 {
+					name = {$plugin.tx_nittygritty.settings.site.authors.usr2.name}
+					nameShort = {$plugin.tx_nittygritty.settings.site.authors.usr2.nameShort}
+					uri = {$plugin.tx_nittygritty.settings.site.authors.usr2.uri}
+				}
+			}
+		}
+		news {
+			semantic {
+				general {
+					pageTitle.action = {$plugin.tx_nittygritty.settings.news.semantic.general.pageTitle.action}
+					pageTitle.useAlternate = {$plugin.tx_nittygritty.settings.news.semantic.general.pageTitle.useAlternate}
+					description.action = {$plugin.tx_nittygritty.settings.news.semantic.general.description.action}
+					description.crop = {$plugin.tx_nittygritty.settings.news.semantic.general.description.crop}
+					keywords.action = {$plugin.tx_nittygritty.settings.news.semantic.general.keywords.action}
+					keywords.limit = {$plugin.tx_nittygritty.settings.news.semantic.general.keywords.limit}
+					author.max = {$plugin.tx_nittygritty.settings.news.semantic.general.author.max}
+					metaTitle = {$plugin.tx_nittygritty.settings.news.semantic.general.metaTitle}
+				}
+				metaBase {
+					meta {
+						build = {$plugin.tx_nittygritty.settings.news.semantic.metaBase.meta.build}
+						dateFormat = {$plugin.tx_nittygritty.settings.news.semantic.metaBase.meta.dateFormat}
+					}
+					og {
+						build = {$plugin.tx_nittygritty.settings.news.semantic.metaBase.og.build}
+						dateFormat = {$plugin.tx_nittygritty.settings.news.semantic.metaBase.og.dateFormat}
+					}
+					dc {
+						build = {$plugin.tx_nittygritty.settings.news.semantic.metaBase.dc.build}
+						dateFormat = {$plugin.tx_nittygritty.settings.news.semantic.metaBase.dc.dateFormat}
+					}
+				}
+				meta {
+					meta {
+						description.action = {$plugin.tx_nittygritty.settings.news.semantic.meta.meta.description.action}
+						keywords.action = {$plugin.tx_nittygritty.settings.news.semantic.meta.meta.keywords.action}
+						author.action = {$plugin.tx_nittygritty.settings.news.semantic.meta.meta.author.action}
+						author.multiple = {$plugin.tx_nittygritty.settings.news.semantic.meta.meta.author.multiple}
+						date.action = {$plugin.tx_nittygritty.settings.news.semantic.meta.meta.date.action}
+						news_keywords.action = {$plugin.tx_nittygritty.settings.news.semantic.meta.meta.news_keywords.action}
+					}
+					og {
+						fb {
+							app_id.value = {$plugin.tx_nittygritty.settings.news.semantic.meta.og.fb.app_id.value}
+						}
+						og {
+							type.value = {$plugin.tx_nittygritty.settings.news.semantic.meta.og.og.type.value}
+							url.action = {$plugin.tx_nittygritty.settings.news.semantic.meta.og.og.url.action}
+							site_name.action = {$plugin.tx_nittygritty.settings.news.semantic.meta.og.og.site_name.action}
+							image.action = {$plugin.tx_nittygritty.settings.news.semantic.meta.og.og.image.action}
+							title.action = {$plugin.tx_nittygritty.settings.news.semantic.meta.og.og.title.action}
+							description.action = {$plugin.tx_nittygritty.settings.news.semantic.meta.og.og.description.action}
+						}
+						article {
+							published_time.action = {$plugin.tx_nittygritty.settings.news.semantic.meta.og.article.published_time.action}
+							modified_time.action = {$plugin.tx_nittygritty.settings.news.semantic.meta.og.article.modified_time.action}
+							expiration_time.action = {$plugin.tx_nittygritty.settings.news.semantic.meta.og.article.expiration_time.action}
+							author.action = {$plugin.tx_nittygritty.settings.news.semantic.meta.og.article.author.action}
+							author.multiple = {$plugin.tx_nittygritty.settings.news.semantic.meta.og.article.author.multiple}
+							section.action = {$plugin.tx_nittygritty.settings.news.semantic.meta.og.article.section.action}
+							tag.action = {$plugin.tx_nittygritty.settings.news.semantic.meta.og.article.tag.action}
+							tag.multiple = {$plugin.tx_nittygritty.settings.news.semantic.meta.og.article.tag.multiple}
+						}
+					}
+					dc {
+						DC {
+							format.value = {$plugin.tx_nittygritty.settings.news.semantic.meta.dc.DC.format.value}
+							format.scheme = {$plugin.tx_nittygritty.settings.news.semantic.meta.dc.DC.format.scheme}
+							type.value = {$plugin.tx_nittygritty.settings.news.semantic.meta.dc.DC.type.value}
+							type.scheme = {$plugin.tx_nittygritty.settings.news.semantic.meta.dc.DC.type.scheme}
+							creator.action = {$plugin.tx_nittygritty.settings.news.semantic.meta.dc.DC.creator.action}
+							creator.multiple = {$plugin.tx_nittygritty.settings.news.semantic.meta.dc.DC.creator.multiple}
+							publisher.value = {$plugin.tx_nittygritty.settings.news.semantic.meta.dc.DC.publisher.value}
+							title.action = {$plugin.tx_nittygritty.settings.news.semantic.meta.dc.DC.title.action}
+							date.action = {$plugin.tx_nittygritty.settings.news.semantic.meta.dc.DC.date.action}
+							date.scheme = {$plugin.tx_nittygritty.settings.news.semantic.meta.dc.DC.date.scheme}
+							identifier.action = {$plugin.tx_nittygritty.settings.news.semantic.meta.dc.DC.identifier.action}
+							identifier.scheme = {$plugin.tx_nittygritty.settings.news.semantic.meta.dc.DC.identifier.scheme}
+							subject.action = {$plugin.tx_nittygritty.settings.news.semantic.meta.dc.DC.subject.action}
+							description.action = {$plugin.tx_nittygritty.settings.news.semantic.meta.dc.DC.description.action}
+							language.action = {$plugin.tx_nittygritty.settings.news.semantic.meta.dc.DC.language.action}
+							language.scheme = {$plugin.tx_nittygritty.settings.news.semantic.meta.dc.DC.language.scheme}
+						}
+						DCTERMS {
+							license.value = {$plugin.tx_nittygritty.settings.news.semantic.meta.dc.DCTERMS.license.value}
+							license.scheme = {$plugin.tx_nittygritty.settings.news.semantic.meta.dc.DCTERMS.license.scheme}
+							modified.action = {$plugin.tx_nittygritty.settings.news.semantic.meta.dc.DCTERMS.modified.action}
+							modified.scheme = {$plugin.tx_nittygritty.settings.news.semantic.meta.dc.DCTERMS.modified.scheme}
+							created.action = {$plugin.tx_nittygritty.settings.news.semantic.meta.dc.DCTERMS.created.action}
+							created.scheme = {$plugin.tx_nittygritty.settings.news.semantic.meta.dc.DCTERMS.created.scheme}
+							rightsHolder.action = {$plugin.tx_nittygritty.settings.news.semantic.meta.dc.DCTERMS.rightsHolder.action}
+							rightsHolder.multiple = {$plugin.tx_nittygritty.settings.news.semantic.meta.dc.DCTERMS.rightsHolder.multiple}
+							alternative.action = {$plugin.tx_nittygritty.settings.news.semantic.meta.dc.DCTERMS.alternative.action}
+						}
+					}
+				}
+			}
+		}
+		socialshareprivacy {
+			info_link = {$plugin.tx_nittygritty.settings.socialshareprivacy.info_link}
+			css_path = {$plugin.tx_nittygritty.settings.socialshareprivacy.css_path}
+			js_path = {$plugin.tx_nittygritty.settings.socialshareprivacy.js_path}
+			imageDirPath = {$plugin.tx_nittygritty.settings.socialshareprivacy.imageDirPath}
+			uri =
+			cookie_path = {$plugin.tx_nittygritty.settings.socialshareprivacy.cookie_path}
+			cookie_domain = {$plugin.tx_nittygritty.settings.socialshareprivacy.cookie_domain}
+			cookie_expires = {$plugin.tx_nittygritty.settings.socialshareprivacy.cookie_expires}
+
+			services {
+				facebook {
+					display_name = {$plugin.tx_nittygritty.settings.socialshareprivacy.services.facebook.display_name}
+					status = {$plugin.tx_nittygritty.settings.socialshareprivacy.services.facebook.status}
+					perma_option = {$plugin.tx_nittygritty.settings.socialshareprivacy.services.facebook.perma_option}
+					action = {$plugin.tx_nittygritty.settings.socialshareprivacy.services.facebook.action}
+					language = {$plugin.tx_nittygritty.settings.socialshareprivacy.services.facebook.language}
+					referrer_track = {$plugin.tx_nittygritty.settings.socialshareprivacy.services.facebook.referrer_track}
+				}
+				twitter {
+					display_name = {$plugin.tx_nittygritty.settings.socialshareprivacy.services.twitter.display_name}
+					language = {$plugin.tx_nittygritty.settings.socialshareprivacy.services.twitter.language}
+					status = {$plugin.tx_nittygritty.settings.socialshareprivacy.services.twitter.status}
+					perma_option = {$plugin.tx_nittygritty.settings.socialshareprivacy.services.twitter.perma_option}
+					referrer_track = {$plugin.tx_nittygritty.settings.socialshareprivacy.services.twitter.referrer_track}
+
+				}
+				gplus {
+					display_name = {$plugin.tx_nittygritty.settings.socialshareprivacy.services.gplus.display_name}
+					language = {$plugin.tx_nittygritty.settings.socialshareprivacy.services.gplus.language}
+					status = {$plugin.tx_nittygritty.settings.socialshareprivacy.services.gplus.status}
+					perma_option = {$plugin.tx_nittygritty.settings.socialshareprivacy.services.gplus.perma_option}
+					referrer_track = {$plugin.tx_nittygritty.settings.socialshareprivacy.services.gplus.referrer_track}
+				}
+				xing {
+					display_name = {$plugin.tx_nittygritty.settings.socialshareprivacy.services.xing.display_name}
+					language = {$plugin.tx_nittygritty.settings.socialshareprivacy.services.xing.language}
+					status = {$plugin.tx_nittygritty.settings.socialshareprivacy.services.xing.status}
+					perma_option = {$plugin.tx_nittygritty.settings.socialshareprivacy.services.xing.perma_option}
+					referrer_track = {$plugin.tx_nittygritty.settings.socialshareprivacy.services.xing.referrer_track}
+				}
+			}
+		}
+		xyz {
+			enable = 1
+		}
+	}
+	_CSS_DEFAULT_STYLE (
+		input.f3-form-error {
+			background-color:#FF9F9F;
+			border: 1px #FF0000 solid;
+		}
+
+		.tx-nittygritty table {
+			border-collapse:separate;
+			border-spacing:10px;
+		}
+
+		.tx-nittygritty table th {
+			font-weight:bold;
+		}
+
+		.tx-nittygritty table td {
+			vertical-align:top;
+		}
+	)
+}
+
+module.tx_nittygritty < plugin.tx_nittygritty

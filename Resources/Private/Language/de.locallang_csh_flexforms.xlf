@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.0">
+	<file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2012-08-21T10:29:21Z" product-name="nittygritty">
+		<header/>
+		<body>
+			<!-- Social Share Privacy -->
+			<trans-unit id="settings.socialshareprivacy.services.facebook.status.description" xml:space="preserve">
+				<source>If set to 'on', Facebook service icon will be availabe for user in social media bar. Setting overrides same value from extension setup.</source>
+				<target>In Stellung "an" ist der Facebook Dienst für die User in der Social Media Werkzeugleiste verfügbar. Diese Einstellung überschreibt die entsprechende Einstellung im Setup.</target>
+			</trans-unit>
+			<trans-unit id="settings.socialshareprivacy.services.twitter.status.description" xml:space="preserve">
+				<source>If set to 'on', Twitter service icon will be availabe for user in social media bar. Setting overrides same value from extension setup.</source>
+				<target>In Stellung "an" ist der Twitter Dienst für die User in der Social Media Werkzeugleiste verfügbar. Diese Einstellung überschreibt die entsprechende Einstellung im Setup.</target>
+			</trans-unit>
+			<trans-unit id="settings.socialshareprivacy.services.gplus.status.description" xml:space="preserve">
+				<source>If set to 'on', Google+ service icon will be availabe for user in social media bar. Setting overrides same value from extension setup.</source>
+				<target>In Stellung "an" ist der Google+ Dienst für die User in der Social Media Werkzeugleiste verfügbar. Diese Einstellung überschreibt die entsprechende Einstellung im Setup.</target>
+			</trans-unit>
+			<trans-unit id="settings.socialshareprivacy.services.xing.status.description" xml:space="preserve">
+				<source>If set to 'on', Xing service icon will be availabe for user in social media bar. Setting overrides same value from extension setup.</source>
+				<target>In Stellung "an" ist der Xing Dienst für die User in der Social Media Werkzeugleiste verfügbar. Diese Einstellung überschreibt die entsprechende Einstellung im Setup.</target>
+			</trans-unit>
+			<trans-unit id="settings.socialshareprivacy.services.facebook.perma_option.description" xml:space="preserve">
+				<source>If set to 'on', user can enable Facebook service icon permanently. Setting overrides same value from extension setup.</source>
+				<target>In Stellung "an" können die User den Facebook Dienst über die Social Media Werkzeugleiste permanent aktivieren. Diese Einstellung überschreibt die entsprechende Einstellung im Setup.</target>
+			</trans-unit>
+			<trans-unit id="settings.socialshareprivacy.services.twitter.perma_option.description" xml:space="preserve">
+				<source>If set to 'on', user can enable Twitter service icon permanently. Setting overrides same value from extension setup.</source>
+				<target>In Stellung "an" können die User den Twitter Dienst über die Social Media Werkzeugleiste permanent aktivieren. Diese Einstellung überschreibt die entsprechende Einstellung im Setup.</target>
+			</trans-unit>
+			<trans-unit id="settings.socialshareprivacy.services.gplus.perma_option.description" xml:space="preserve">
+				<source>If set to 'on', user can enable Google+ service icon permanently. Setting overrides same value from extension setup.</source>
+				<target>In Stellung "an" können die User den Google+ Dienst über die Social Media Werkzeugleiste permanent aktivieren. Diese Einstellung überschreibt die entsprechende Einstellung im Setup.</target>
+			</trans-unit>
+			<trans-unit id="settings.socialshareprivacy.services.xing.perma_option.description" xml:space="preserve">
+				<source>If set to 'on', user can enable Xing service icon permanently. Setting overrides same value from extension setup.</source>
+				<target>In Stellung "an" können die User den Xing Dienst über die Social Media Werkzeugleiste permanent aktivieren. Diese Einstellung überschreibt die entsprechende Einstellung im Setup.</target>
+			</trans-unit>
+			<trans-unit id="settings.socialshareprivacy.services.facebook.action.description" xml:space="preserve">
+				<source>Select your favoured Facebook action (Recommend or Like). Setting overrides same value from extension setup. The language of the button can be defined in Setup.</source>
+				<target>Wählen Sie ihre bevorzugte Facebook Aktion ('Empfehlen' oder 'Gefällt mir'). Diese Einstellung überschreibt die entsprechende Einstellung im Setup. Die Sprache der Schaltfläche können Sie im Setup festlegen.</target>
+			</trans-unit>
+			<trans-unit id="settings.socialshareprivacy.services.facebook.referrer_track.description" xml:space="preserve">
+				<source>Text enterred here will be appended to the URL to allow referrer tracking.</source>
+				<target>Hier eingegebener Text (type = string) wird an die URL angehängt, z.B. für Referrer Tracking.</target>
+			</trans-unit>
+			<trans-unit id="settings.socialshareprivacy.services.twitter.referrer_track.description" xml:space="preserve">
+				<source>Text enterred here will be appended to the URL to allow referrer tracking.</source>
+				<target>Hier eingegebener Text (type = string) wird an die URL angehängt, z.B. für Referrer Tracking.</target>
+			</trans-unit>
+			<trans-unit id="settings.socialshareprivacy.services.gplus.referrer_track.description" xml:space="preserve">
+				<source>Text enterred here will be appended to the URL to allow referrer tracking.</source>
+				<target>Hier eingegebener Text (type = string) wird an die URL angehängt, z.B. für Referrer Tracking.</target>
+			</trans-unit>
+			<trans-unit id="settings.socialshareprivacy.services.xing.referrer_track.description" xml:space="preserve">
+				<source>Text enterred here will be appended to the URL to allow referrer tracking.</source>
+				<target>Hier eingegebener Text (type = string) wird an die URL angehängt, z.B. für Referrer Tracking.</target>
+			</trans-unit>
+			<trans-unit id="settings.socialshareprivacy.services.twitter.tweet_text.description" xml:space="preserve">
+				<source>Text enterred here will be used as Tweet text. It will be truncated to 120 characters. Leave empty to use auto generation.</source>
+				<target>Nutzen Sie dieses Feld, um den Twitter Tweet Text manuell vorzugeben und die Automatik zu deaktivieren. Der Text wird auf max. 120 Zeichen gekürzt. Lassen Sie das Feld leer, um die Automatik zu nutzen.</target>
+			</trans-unit>
+			<trans-unit id="settings.socialshareprivacy.services.twitter.tweet_text.details" xml:space="preserve">
+				<source>If left empty, auto generation will determine a propper Tweet text in the following order: If Meta tag "DC.title" is available, it will be used as Tweet text. If not, the page title will be used. If "DC.creator" is available, it will be appended to the text.</source>
+				<target>Im Automatikmodus wird ein geeigneter Tweet Text in folgender Reihenfolge gesucht. Zuerst über einen eventuell vorhandenen "DC.title" Meta-Tag. Falls nicht vorhanden, wird der Seiten Titel verwendet. Ein eventuell vorhandener "DC.creator" Eintrag wird an den Titel angehängt.</target>
+			</trans-unit>
+			<trans-unit id="settings.socialshareprivacy.uri.description" xml:space="preserve">
+				<source>The URI which will be promoted by the send button. Leave empty for auto generation.</source>
+				<target>Die URI, welche über den Social Button verbreitet wird. Lassen Sie das Feld leer, um die Automatik zu nutzen.</target>
+			</trans-unit>
+			<trans-unit id="settings.socialshareprivacy.uri.details" xml:space="preserve">
+				<source>In most cases auto generation will be the best pick. Leave field empty in this case. Otherwise use a URI in Typolink Format. This URI will be used by the social buttons.</source>
+				<target>In den meisten Fällen ist die Automatik die beste Wahl. Lassen Sie das Feld dafür leer. Ansonsten geben Sie eine URL im Typolink Format an. Diese URL wird dann über den Share Button verbreitet.</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
